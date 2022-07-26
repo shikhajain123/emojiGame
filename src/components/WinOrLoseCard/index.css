@@ -1,0 +1,121 @@
+/* Write your code here. */
+.win-lose-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: #ffffff33;
+  width: 85%;
+  border: 3px solid #ffffff30;
+  border-radius: 25px;
+  margin: auto;
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-lose-container {
+    width: 80%;
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .win-lose-container {
+    flex-direction: row;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .win-lose-container {
+    width: 60%;
+  }
+}
+
+.score-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .score-details-container {
+    order: 0;
+  }
+}
+
+.result-text {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 500;
+}
+@media screen and (min-width: 992px) {
+  .result-text {
+    font-size: 55px;
+  }
+}
+.label-text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+@media screen and (min-width: 992px) {
+  .label-text {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+}
+.your-score {
+  text-align: center;
+  font-size: 30px;
+  color: #6a59ff;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .your-score {
+    font-size: 42px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+.play-again-btn {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+@media screen and (min-width: 992px) {
+  .image-container {
+    order: 1;
+  }
+}
+.win-lose-image {
+  width: 150px;
+  height: 200px;
+}
+
+@media screen and (min-width: 992px) {
+  .win-lose-image {
+    width: 350px;
+    height: 450px;
+  }
+}
